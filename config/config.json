@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "async-drop-down-prop-pane-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/asyncDropDownPropPane/AsyncDropDownPropPaneWebPart.js",
+          "manifest": "./src/webparts/asyncDropDownPropPane/AsyncDropDownPropPaneWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AsyncDropDownPropPaneWebPartStrings": "lib/webparts/asyncDropDownPropPane/loc/{locale}.js"
+  }
+}
